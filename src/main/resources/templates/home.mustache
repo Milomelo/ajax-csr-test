@@ -27,14 +27,16 @@
                     <th>작성일</th>
                 </tr>
             </thead>
+            {{#boards}}
             <tbody>
                 <tr>
-                    <td>id</td>
-                    <td>title</td>
-                    <td>content</td>
-                    <td>createDate</td>
+                    <td>{{id}}</td>
+                    <td>{{title}}</td>
+                    <td>{{content}}</td>
+                    <td>{{createDate}}</td>
                 </tr>
             </tbody>
+            {{/boards}}
         </table>
     </div>
 
